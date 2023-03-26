@@ -8,7 +8,7 @@ import Text "mo:base/Text";
 
 ### Types
 
-[Type `Pattern`]()  
+[Type `Pattern`](#type-pattern)  
 
 ### Analysis
 
@@ -28,7 +28,7 @@ import Text "mo:base/Text";
 [Function `replace`](#textreplace)  
 [Function `concat`](#textconcat)
 
-## Text.Pattern
+## Type Pattern
 ```motoko, run
 {{#include _mo/text5.mo:a}}
 ```
