@@ -1,8 +1,8 @@
 // ANCHOR: a
-import Nat8 "mo:base/Nat8";
+import Nat16 "mo:base/Nat16";
 
-let x : Nat8 = 15;
-let y : Nat8 = 10;
+let x : Nat16 = 200;
+let y : Nat16 = 100;
 
-Nat8.max(x, y);
+Nat16.max(x, y);
 // ANCHOR_END: a

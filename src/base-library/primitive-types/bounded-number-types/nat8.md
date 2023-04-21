@@ -421,7 +421,7 @@ The function `bitcountTrailingZero` takes one `Nat8` value and returns a `Nat8` 
 ```motoko
 func addWrap(x : Nat8, y : Nat8) : Nat8
 ```
-The function `addWrap` takes two `Nat8` value and returns a `Nat8` value.It is equivalent to the == [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-addition-).
+The function `addWrap` takes two `Nat8` value and returns a `Nat8` value.It is equivalent to the `+%` [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-addition-).
 
 ```motoko, run
 {{#include _mo/nat8/addWrap.mo:a}}
@@ -431,7 +431,7 @@ The function `addWrap` takes two `Nat8` value and returns a `Nat8` value.It is e
 ```motoko
 func subWrap(x : Nat8, y : Nat8) : Nat8
 ```
-The function `subWrap` takes two `Nat8` value and returns a `Nat8` value.It is equivalent to the == [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-subtraction--).
+The function `subWrap` takes two `Nat8` value and returns a `Nat8` value.It is equivalent to the `-%` [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-subtraction--).
 
 ```motoko, run
 {{#include _mo/nat8/subWrap.mo:a}}
@@ -441,7 +441,7 @@ The function `subWrap` takes two `Nat8` value and returns a `Nat8` value.It is e
 ```motoko
 func mulWrap(x : Nat8, y : Nat8) : Nat8
 ```
-The function `mulWrap` takes two `Nat8` value and returns a `Nat8` value.It is equivalent to the == [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-multiplication-).
+The function `mulWrap` takes two `Nat8` value and returns a `Nat8` value.It is equivalent to the `*%` [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-multiplication-).
 
 ```motoko, run
 {{#include _mo/nat8/mulWrap.mo:a}}
@@ -451,7 +451,7 @@ The function `mulWrap` takes two `Nat8` value and returns a `Nat8` value.It is e
 ```motoko
 func powWrap(x : Nat8, y : Nat8) : Nat8
 ```
-The function `powWrap` takes two `Nat8` value and returns a `Nat8` value.It is equivalent to the == [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-exponentiation-).
+The function `powWrap` takes two `Nat8` value and returns a `Nat8` value.It is equivalent to the `**%` [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-exponentiation-).
 
 ```motoko, run
 {{#include _mo/nat8/powWrap.mo:a}}

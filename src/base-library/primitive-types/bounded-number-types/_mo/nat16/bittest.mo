@@ -1,8 +1,8 @@
 // ANCHOR: a
 import Nat16 "mo:base/Nat16";
 
-let x : Nat16 = 12;     // Binary : 00001100
-let p : Nat = 2;
+let x : Nat16 = 252;     // Binary : 00000000_11111100
+let p : Nat = 5;
 
 Nat16.bittest(x, p)      
 // ANCHOR_END: a

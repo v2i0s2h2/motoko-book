@@ -2,7 +2,7 @@
 import Nat16 "mo:base/Nat16";
 
 let x : Nat16 = 0; 
-let y : Nat16 = 1;
+let y : Nat16 = 6;
 
 Nat16.subWrap(x, y)      
 // ANCHOR_END: a

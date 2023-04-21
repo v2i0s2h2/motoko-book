@@ -69,61 +69,51 @@ The _convention_ is to name the [_module alias_](/common-programming-concepts/mo
 ```motoko
 let minimumValue : Nat16 = 0;
 ```
-
 ## maximumValue
 
 ```motoko
 let maximumValue : Nat16 = 65_535;
 ```
-
 ## Nat16.toNat
 
 ```motoko
  func toNat(i : Nat16) : Nat
 ```
-
 The function `toNat` takes one `Nat16` argument and returns a `Nat` value.
 
 ```motoko, run
 {{#include _mo/nat16/toNat.mo:a}}
 ```
-
 ## Nat16.toText
 
 ```motoko
  func toText(i : Nat16) : Text
 ```
-
 The function `toText` takes one `Nat16` argument and returns a `Text` value.
 
 ```motoko, run
 {{#include _mo/nat16/toText.mo:a}}
 ```
-
 ## Nat16.fromNat
 
 ```motoko
  func fromNat(i : Nat) : Nat16
 ```
-
 The function `fromNat` takes one `Nat` argument and returns a `Nat16` value.
 
 ```motoko, run
 {{#include _mo/nat16/fromNat.mo:a}}
 ```
-
 ## Nat16.fromIntWrap
 
 ```motoko
  func fromIntWrap(i : Int) : Nat
 ```
-
 The function `fromIntWrap` takes one `Int` argument and returns a `Nat16` value.
 
 ```motoko, run
 {{#include _mo/nat16/fromIntWrap.mo:a}}
 ```
-
 ## Nat16.min
 
 ```motoko
@@ -431,7 +421,7 @@ The function `bitcountTrailingZero` takes one `Nat16` value and returns a `Nat16
 ```motoko
 func addWrap(x : Nat16, y : Nat16) : Nat16
 ```
-The function `addWrap` takes two `Nat16` value and returns a `Nat16` value.It is equivalent to the == [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-addition-).
+The function `addWrap` takes two `Nat16` value and returns a `Nat16` value.It is equivalent to the `+%` [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-addition-).
 
 ```motoko, run
 {{#include _mo/nat16/addWrap.mo:a}}
@@ -441,7 +431,7 @@ The function `addWrap` takes two `Nat16` value and returns a `Nat16` value.It is
 ```motoko
 func subWrap(x : Nat16, y : Nat16) : Nat16
 ```
-The function `subWrap` takes two `Nat16` value and returns a `Nat16` value.It is equivalent to the == [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-subtraction--).
+The function `subWrap` takes two `Nat16` value and returns a `Nat16` value.It is equivalent to the `-%` [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-subtraction--).
 
 ```motoko, run
 {{#include _mo/nat16/subWrap.mo:a}}
@@ -451,7 +441,7 @@ The function `subWrap` takes two `Nat16` value and returns a `Nat16` value.It is
 ```motoko
 func mulWrap(x : Nat16, y : Nat16) : Nat16
 ```
-The function `mulWrap` takes two `Nat16` value and returns a `Nat16` value.It is equivalent to the == [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-multiplication-).
+The function `mulWrap` takes two `Nat16` value and returns a `Nat16` value.It is equivalent to the `*%` [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-multiplication-).
 
 ```motoko, run
 {{#include _mo/nat16/mulWrap.mo:a}}
@@ -461,7 +451,7 @@ The function `mulWrap` takes two `Nat16` value and returns a `Nat16` value.It is
 ```motoko
 func powWrap(x : Nat16, y : Nat16) : Nat16
 ```
-The function `powWrap` takes two `Nat16` value and returns a `Nat16` value.It is equivalent to the == [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-exponentiation-).
+The function `powWrap` takes two `Nat16` value and returns a `Nat16` value.It is equivalent to the `**%` [Bitwise operators](/common-programming-concepts/operators/bitwise-operators.html#wrapping-exponentiation-).
 
 ```motoko, run
 {{#include _mo/nat16/powWrap.mo:a}}
