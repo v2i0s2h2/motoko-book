@@ -1,7 +1,8 @@
 // ANCHOR: a
 import Nat32 "mo:base/Nat32";
 
-let integer : Int = 4294967297;
+let x : Nat32 = 200;
+let y : Nat32 = 50;
 
-Nat32.fromIntWrap(integer);
+Nat32.mul(x, y);
 // ANCHOR_END: a
