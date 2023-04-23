@@ -2,7 +2,7 @@
 // ANCHOR: a
 import Int8 "mo:base/Int8";
 
-let nat8 : Nat8 = 127;
+let int8 : Int8 = -127;
 
-Int8.fromNat8(nat8);
+Int8.toInt8(int8);
 // ANCHOR_END: a

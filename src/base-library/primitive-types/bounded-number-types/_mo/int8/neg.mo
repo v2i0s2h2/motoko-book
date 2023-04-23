@@ -1,8 +1,7 @@
-// Int8
 // ANCHOR: a
 import Int8 "mo:base/Int8";
 
-let int8 : Int8 = -127;
+let x : Int8 = -40;
 
-Int8.toNat8(int8);
+Int8.neg(x);
 // ANCHOR_END: a
