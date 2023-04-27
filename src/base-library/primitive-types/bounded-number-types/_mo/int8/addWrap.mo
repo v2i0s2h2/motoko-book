@@ -1,7 +1,7 @@
 // ANCHOR: a
 import Int8 "mo:base/Int8";
 
-let x : Int8 = 255;
+let x : Int8 = -127;
 let y : Int8 = 6;
 
 Int8.addWrap(x, y)

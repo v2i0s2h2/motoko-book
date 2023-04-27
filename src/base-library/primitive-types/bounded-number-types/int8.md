@@ -85,7 +85,7 @@ let maximumValue : Int8 = 127
  func toInt(i : Int8) : Int
 ```
 
-The function `toInt` takes one `Int8` argument and returns an `Int` value.
+The function `toInt` takes one `Int8` value and returns an `Int` value.
 
 ```motoko, run
 {{#include _mo/int8/toInt.mo:a}}
@@ -97,7 +97,7 @@ The function `toInt` takes one `Int8` argument and returns an `Int` value.
 func toText(i : Int8) : Text
 ```
 
-The function `toText` takes one `Int8` argument and returns a `Text` value.
+The function `toText` takes one `Int8` value and returns a `Text` value.
 
 ```motoko, run
 {{#include _mo/int8/toText.mo:a}}
@@ -109,7 +109,7 @@ The function `toText` takes one `Int8` argument and returns a `Text` value.
  func fromInt(i : Int) : Int8
 ```
 
-The function `fromInt` takes one `Int` argument and returns an `Int8` value.
+The function `fromInt` takes one `Int` value and returns an `Int8` value.
 
 ```motoko, run
 {{#include _mo/int8/fromInt.mo:a}}
@@ -121,7 +121,7 @@ The function `fromInt` takes one `Int` argument and returns an `Int8` value.
  func fromIntWrap(i : Int) : Int8
 ```
 
-The function `fromIntWrap` takes one `Int` argument and returns an `Int8` value.
+The function `fromIntWrap` takes one `Int` value and returns an `Int8` value.
 
 ```motoko, run
 {{#include _mo/int8/fromIntWrap.mo:a}}
@@ -130,10 +130,10 @@ The function `fromIntWrap` takes one `Int` argument and returns an `Int8` value.
 ## Int8.fromNat8
 
 ```motoko
- func fromNat8(i : Int8) : Int8
+ func fromNat8(i : Nat8) : Int8
 ```
 
-The function `fromNat8` takes one `Int8` argument and returns an `Int8` value.
+The function `fromNat8` takes one `Nat8` value and returns an `Int8` value.
 
 ```motoko, run
 {{#include _mo/int8/fromNat8.mo:a}}
@@ -142,10 +142,10 @@ The function `fromNat8` takes one `Int8` argument and returns an `Int8` value.
 ## Int8.toNat8
 
 ```motoko
- func toNat8(i : Int8) : Int8
+ func toNat8(i : Int8) : Nat8
 ```
 
-The function `toNat8` takes one `Int8` argument and returns an `Int8` value.
+The function `toNat8` takes one `Int8` value and returns an `Nat8` value.
 
 ```motoko, run
 {{#include _mo/int8/toNat8.mo:a}}
