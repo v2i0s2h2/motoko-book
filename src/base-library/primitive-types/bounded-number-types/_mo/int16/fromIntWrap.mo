@@ -1,7 +1,7 @@
 // ANCHOR: a
-import Int8 "mo:base/Int8";
+import Int16 "mo:base/Int16";
 
-let integer : Int = 130;
+let integer : Int = 32780;
 
-Int8.fromIntWrap(integer);
+Int16.fromIntWrap(integer);
 // ANCHOR_END: a

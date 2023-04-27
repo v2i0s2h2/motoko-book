@@ -1,7 +1,7 @@
 // ANCHOR: a
-import Int8 "mo:base/Int8";
+import Int32 "mo:base/Int32";
 
-let x : Int8 = -40;
+let x : Int32 = -40;
 
-Int8.abs(x);
+Int32.abs(x);
 // ANCHOR_END: a
