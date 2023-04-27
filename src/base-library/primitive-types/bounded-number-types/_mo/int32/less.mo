@@ -1,8 +1,8 @@
-// Int32
 // ANCHOR: a
 import Int32 "mo:base/Int32";
 
-let int32 : Int32 = -967296;
+let x : Int32 = 2000;
+let y : Int32 = 2500;
 
-Int32.toNat32(int32);
+Int32.less(x, y);
 // ANCHOR_END: a
