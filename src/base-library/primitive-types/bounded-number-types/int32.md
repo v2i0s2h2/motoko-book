@@ -19,8 +19,8 @@ The _convention_ is to name the [_module alias_](/common-programming-concepts/mo
 [Function `toText`](#int32totext)  
 [Function `fromInt`](#int32fromint)  
 [Function `fromIntWrap`](#int32fromintwrap)    
-[Function `fromNat16`](#int32fromnat16)  
-[Function `toNat16`](#int32tonat16)
+[Function `fromNat32`](#int32fromnat32)  
+[Function `toNat32`](#int32tonat32)
 
 ### Comparison
 
