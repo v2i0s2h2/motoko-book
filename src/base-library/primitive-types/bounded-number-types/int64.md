@@ -13,12 +13,12 @@ The _convention_ is to name the [_module alias_](/common-programming-concepts/mo
 [Value `minimumValue`](#minimumvalue)  
 [Value `maximumValue`](#maximumvalue)
 
-### Conversion 
+### Conversion
 
 [Function `toInt`](#int64toint)  
 [Function `toText`](#int64totext)  
 [Function `fromInt`](#int64fromint)  
-[Function `fromIntWrap`](#int64fromintwrap)    
+[Function `fromIntWrap`](#int64fromintwrap)  
 [Function `fromNat64`](#int64fromnat64)  
 [Function `toNat64`](#int64tonat64)
 

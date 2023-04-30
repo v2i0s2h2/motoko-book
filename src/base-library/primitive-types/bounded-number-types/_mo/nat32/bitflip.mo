@@ -2,7 +2,7 @@
 import Nat32 "mo:base/Nat32";
 
 let x : Nat32 = 255;     // Binary : 00000000_00000000_00000000_11111111
-let p : Nat = 5;
+let p : Nat = 7;
 
-Nat32.bitflip(x, p)      // Binary : 00000000_00000000_00000000_11011111
+Nat32.bitflip(x, p)      // Binary : 00000000_00000000_00000000_01111111
 // ANCHOR_END: a

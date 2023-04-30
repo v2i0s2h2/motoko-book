@@ -13,12 +13,12 @@ The _convention_ is to name the [_module alias_](/common-programming-concepts/mo
 [Value `minimumValue`](#minimumvalue)  
 [Value `maximumValue`](#maximumvalue)
 
-### Conversion 
+### Conversion
 
 [Function `toInt`](#int32toint)  
 [Function `toText`](#int32totext)  
 [Function `fromInt`](#int32fromint)  
-[Function `fromIntWrap`](#int32fromintwrap)    
+[Function `fromIntWrap`](#int32fromintwrap)  
 [Function `fromNat32`](#int32fromnat32)  
 [Function `toNat32`](#int32tonat32)
 
@@ -31,7 +31,7 @@ The _convention_ is to name the [_module alias_](/common-programming-concepts/mo
 [Function `less`](#int32less)  
 [Function `lessOrEqual`](#int32lessorequal)  
 [Function `greater`](#int32greater)  
-[Function `greaterOrEqual`](#int16greaterorequal)  
+[Function `greaterOrEqual`](#int32greaterorequal)  
 [Function `compare`](#int32compare)
 
 ### Numerical Operations
