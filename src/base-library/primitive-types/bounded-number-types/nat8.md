@@ -81,7 +81,7 @@ let maximumValue : Nat8 = 255
 func toNat(i : Nat8) : Nat
 ```
 
-The function `toNat` takes one `Nat8` argument and returns a `Nat` value.
+The function `toNat` takes one `Nat8` value and returns a `Nat` value.
 
 ```motoko, run
 {{#include _mo/nat8/toNat.mo:a}}
@@ -93,7 +93,7 @@ The function `toNat` takes one `Nat8` argument and returns a `Nat` value.
 func toText(i : Nat8) : Text
 ```
 
-The function `toText` takes one `Nat8` argument and returns a `Text` value.
+The function `toText` takes one `Nat8` value and returns a `Text` value.
 
 ```motoko, run
 {{#include _mo/nat8/toText.mo:a}}
@@ -105,7 +105,7 @@ The function `toText` takes one `Nat8` argument and returns a `Text` value.
 func fromNat(i : Nat) : Nat8
 ```
 
-The function `fromNat` takes one `Nat` argument and returns a `Nat8` value.
+The function `fromNat` takes one `Nat` value and returns a `Nat8` value.
 
 ```motoko, run
 {{#include _mo/nat8/fromNat.mo:a}}
@@ -117,7 +117,7 @@ The function `fromNat` takes one `Nat` argument and returns a `Nat8` value.
 func fromIntWrap(i : Int) : Nat8
 ```
 
-The function `fromIntWrap` takes one `Int` argument and returns a `Nat8` value.
+The function `fromIntWrap` takes one `Int` value and returns a `Nat8` value.
 
 ```motoko, run
 {{#include _mo/nat8/fromIntWrap.mo:a}}

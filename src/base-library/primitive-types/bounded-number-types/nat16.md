@@ -81,7 +81,7 @@ let maximumValue : Nat16 = 65_535;
  func toNat(i : Nat16) : Nat
 ```
 
-The function `toNat` takes one `Nat16` argument and returns a `Nat` value.
+The function `toNat` takes one `Nat16` value and returns a `Nat` value.
 
 ```motoko, run
 {{#include _mo/nat16/toNat.mo:a}}
@@ -93,7 +93,7 @@ The function `toNat` takes one `Nat16` argument and returns a `Nat` value.
  func toText(i : Nat16) : Text
 ```
 
-The function `toText` takes one `Nat16` argument and returns a `Text` value.
+The function `toText` takes one `Nat16` value and returns a `Text` value.
 
 ```motoko, run
 {{#include _mo/nat16/toText.mo:a}}
@@ -105,7 +105,7 @@ The function `toText` takes one `Nat16` argument and returns a `Text` value.
  func fromNat(i : Nat) : Nat16
 ```
 
-The function `fromNat` takes one `Nat` argument and returns a `Nat16` value.
+The function `fromNat` takes one `Nat` value and returns a `Nat16` value.
 
 ```motoko, run
 {{#include _mo/nat16/fromNat.mo:a}}
@@ -117,7 +117,7 @@ The function `fromNat` takes one `Nat` argument and returns a `Nat16` value.
  func fromIntWrap(i : Int) : Nat
 ```
 
-The function `fromIntWrap` takes one `Int` argument and returns a `Nat16` value.
+The function `fromIntWrap` takes one `Int` value and returns a `Nat16` value.
 
 ```motoko, run
 {{#include _mo/nat16/fromIntWrap.mo:a}}
